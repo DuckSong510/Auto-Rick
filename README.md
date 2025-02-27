@@ -15,5 +15,24 @@ Extension to automatically play Never gonna give you up by Rick Astley when you 
 
 
 ```
-// ==UserScript== // @name         Rickroll Redirect // @namespace    http://tampermonkey.net/ // @version      0.1 // @description  Redirect to Rick Astley's "Never Gonna Give You Up" YouTube video // @author       You // @match        *://*.youtube.com/* // @grant        none // ==/UserScript== (function() { 'use strict'; // Redirect to Rick Astley's "Never Gonna Give You Up" YouTube video window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; })();
+// ==UserScript==
+// @name         Auto Play Rickroll on YouTube
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  Automatically play "Never Gonna Give You Up" when opening YouTube
+// @author       DuckSong510
+// @match        *://www.youtube.com/*
+// @icon         https://www.youtube.com/favicon.ico
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    const rickrollURL = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+
+    // Check if we are already on the Rickroll video
+    if (window.location.href !== rickrollURL) {
+        window.location.replace(rickrollURL);
+    }
+})();
 ```
