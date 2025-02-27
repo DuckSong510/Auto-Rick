@@ -1,5 +1,5 @@
 # What is Auto-Rick?
-Auto-Rick is an Extension to automatically play Never gonna give you up by Rick Astley when you open youtube.
+Auto-Rick is an Extension to automatically play Never gonna give you up by Rick Astley when you open youtube. You could also just take this script and modify to work for other websites and link to different places idc it's just a concept. It works though.
 
 # How to use
 
