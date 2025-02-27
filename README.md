@@ -1,5 +1,4 @@
 # Rickroll-prank
-Some devilish deviousness
-
+Extension to automatically play Never gonna give you up by Rick Astley
 
 # How to use.
