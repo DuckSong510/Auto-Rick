@@ -1,5 +1,5 @@
-# Rickroll-prank
-Extension to automatically play Never gonna give you up by Rick Astley when you open youtube.
+What is Auto-Rick?
+Auto-Rick is an Extension to automatically play Never gonna give you up by Rick Astley when you open youtube.
 
 # How to use
 
