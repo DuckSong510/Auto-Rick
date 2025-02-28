@@ -35,27 +35,3 @@ Auto-Rick is an Extension to automatically play Never gonna give you up by Rick 
 4. Save the script.
 
 5. Open YouTube to see the redirect in action.
-
-
-```
-// ==UserScript==
-// @name         Auto Play Rickroll on YouTube
-// @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  Automatically play "Never Gonna Give You Up" when opening YouTube
-// @author       DuckSong510
-// @match        *://www.youtube.com/*
-// @icon         https://www.youtube.com/favicon.ico
-// @grant        none
-// ==/UserScript==
-
-(function() {
-    'use strict';
-    const rickrollURL = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
-
-    // Check if we are already on the Rickroll video
-    if (window.location.href !== rickrollURL) {
-        window.location.replace(rickrollURL);
-    }
-})();
-```
