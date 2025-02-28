@@ -9,7 +9,7 @@ Auto-Rick is an Extension to automatically play Never gonna give you up by Rick 
 
 3. Replace the default code with the code provided below.
 
-```Greasemonkey
+```Javascript
 // ==UserScript==
 // @name         Auto Play Rickroll on YouTube
 // @namespace    http://tampermonkey.net/
